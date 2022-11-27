@@ -6,24 +6,29 @@
 
 function grade(marks)
 {
-    if (marks > 79) // Grade A block
+    if (marks > 79 && marks <= 100) // Grades between 79 - 100 output is grade A
     {
-        return 'A';
+        return 'Grade: A';
     }
-    else if (marks >=60 && marks <=79) // Grad B block
+    else if (marks >= 60 && marks <= 79) // Grades between ^0 - 79 output is grade B
     {
-        return 'B';
+        return 'Grade: B';
     }
-    else if (marks >= 49 && marks <= 59) // Grade C block
+    else if (marks >= 49 && marks <= 59) // Grades between 49 - 59 output is grade C
     {
-        return 'c';
+        return 'Grade: c';
     }
-    else if (marks >= 40 && marks <=49 ) // Grade D block
+    else if (marks >= 40 && marks <= 49 ) // Grades between 40 - 49 output is grade D
     {
-        return 'D';
+        return 'Grade: D';
     }
-    else // Grade E block(0 - 49)
+    else if (marks >=0 && marks <40) // Grades between 0 - 40 output is grade A
     {
-        return 'E';
+        return 'Grade: E';
+    }
+    else // if input is not between 0 - 100 warning is outputted
+    {
+        return 'Try numbers between 0 - 100';
     }
 }
+console.log(grade(""))
