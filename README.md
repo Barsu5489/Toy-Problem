@@ -6,7 +6,7 @@
 - Write a program that calculates individual's net salary from basic salary and benefits input.
 
 ## Task 1 - Student Grade Genetaor
-- The program contains one function with one parameter called 'marks' that only takes integer values ranging from 0 to 100 and uses else if conditions to determine the grade to be outputted.
+- TContains a HTML input fiels and calculate button called grade. It outputs grade depending on the marks inputted in the input field
 
 ## Task 2 - Speed Detector 
 - Program has one function that accepts speed input and uses else if statements to calculate the the speed range the driver is allowed to drive and gives demerits points if speed is above speed limit to a point where licence gets suspended if demerit points exceed 12 points
