@@ -126,7 +126,7 @@ function netSalary(salary, benefits = 1080)
     }
    
     const finalPay =  [`PAYE: ${payeCalulations().toFixed(2)}, NSSF: ${nssf}, Net Salary is: ${nssfNhifDeduction() + benefits}`];
-    return finalPay; // This returns Net Salary
+    return finalPay; // This returns Net Salary, PAYEE and NSSF
    
 }
 console.log(netSalary(500000,60000)); // Testing if the program works
