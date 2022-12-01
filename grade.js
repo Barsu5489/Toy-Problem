@@ -4,39 +4,25 @@
 * return - Student grade depending on marks they got
 */
 
-function grade(marks)
-{
-    // const marks = document.getElementById('input').value
-    // const results = document.getElementById('grade')
-    
-    if (marks > 79 && marks <= 100) // Grades between 79 - 100 output is grade A
-    {
-        return 'Grade: A';
-    }
-    else if (marks >= 60 && marks <= 79) // Grades between ^0 - 79 output is grade B
-    {
-        return 'Grade: B';
-    }
-    else if (marks >= 49 && marks <= 59) // Grades between 49 - 59 output is grade C
-    {
-        return 'Grade: c';
-    }
-    else if (marks >= 40 && marks <= 49 ) // Grades between 40 - 49 output is grade D
-    {
-        return 'Grade: D';
-    }
-    else if (marks >=0 && marks <40) // Grades between 0 - 40 output is grade A
-    {
-        return 'Grade: E';
-    }
-    else // if input is not between 0 - 100 warning is outputted
-    {
-        return 'Try numbers between 0 - 100';
-    }
+
+function grade (marks){//Grade A
+    if (marks>79){
+    return "A";
+ }
+ else if (marks <=79 && marks >=60 )//Grade B
+ {
+return "B"
+
+ }
+ else if (marks<=59 && marks>=50){ //Grade C
+    return "C"
+ }
+ else if (marks<=49 && marks>=40){//Grade D
+    return "D"
+ }
+else{//Grade E (0-39)
+    return "E";
+
 }
-const call = document.getElementById('grade');
-const alama = document.getElementById('input').innerHTML
-call.addEventListener("click", ()=>
-{
-    document.getElementById("out").innerHTML = grade(marks)
-})
+}
+console.log(grade(80));//testing if the function works

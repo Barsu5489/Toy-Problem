@@ -37,6 +37,9 @@ Writing a prigrame thatcalculates the net salary ofan indiviual
 The programme prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade uuing the if else statement.
 Enter the student marks and the program will generate the grade.
 
+Test the code by running node grade.js in terminal
+Make sure file is opened in intergrated terminal before running node grade.js
+
 **CHALLANGE 2; SPEED DETECTOR**
 
 The program inputs the speed of the a car. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
