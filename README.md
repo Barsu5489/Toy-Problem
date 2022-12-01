@@ -1,42 +1,60 @@
-# CODE CHALLENGE 
-- Week one Toy problem code challenge
 
-# Getting started 
-- In order to use the content on this repo ensure you have:
-- windows, mac or linux Operating system.
-- nodejs version 9.0 installed
+**CODE-CHALLANGE**
 
-## Installations
-### Option 
-Clone the repo pasting the command below on your terminal:
-      git clone https://github.com/Barsu5489/Toy-Problem.git
+**DESCRIPTION**
+This is a practice code challange
 
-- You can now  view the code with your prefered code editor.
+**GETTING STARTED**
+In order for you to use the conted of this repo,follow the following
 
-## Objective
-- Write a program that generates student grade.
-- Write a program that detects car speed.
-- Write a program that calculates individual's net salary from basic salary and benefits input.
+Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
 
-## Task 1 - Student Grade Genetaor
-- Run the code by inputting grade on input field and clicking on calculate.
-- Contains a HTML input fiels and calculate button called grade. It outputs grade depending on the marks inputted in the input field
+        git clone https://github.com/Barsu5489/Toy-Problem.git
+        
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
 
-## Task 2 - Speed Detector 
-- Run the program by invoking carSpeed(79). The arguments can take any number
-- Program has one function that accepts speed input and uses else if statements to calculate the the speed range the driver is allowed to drive and gives demerits points if speed is above speed limit to a point where licence gets suspended if demerit points exceed 12 points
+        cd Toy-Problem
 
-## Task 3 - Net Salary Calculator
-- Run the code by invoking netSalary function and input gross salary as first argument and benefits as second argument
-- Source of figures used in this task -> https://www.aren.co.ke/payroll/taxrates.htm#PAYE 
-- This program calculates nets salary, NHIF, NSSF, PAYE using values and fomular in line with KRA.
-- Here's a link to confirm if the program written is in line with KRA PAYE calculation -> https://www.kra.go.ke/individual/calculate-tax/calculating-tax/paye
+- Open it in ``Visual Studio Code``
 
+        code .
+- Run
 
-# Authors
-- Project was done by: 
-1)  [Emmanuel Barsosio]  - https://github.com/Barsu5489
+        npm install
 
+**GOALS**
 
-# License
-Code copyright Emmanuel Barsosio. Code released under the MIT license
+Writing a programe that calculates the grades of the students
+
+Writting a program that detects the speed of the car
+
+Writing a prigrame thatcalculates the net salary ofan indiviual
+
+**CHALLANGE 1; GRADE CALCULATOR**
+
+The programme prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade uuing the if else statement.
+Enter the student marks and the program will generate the grade.
+
+**CHALLANGE 2; SPEED DETECTOR**
+
+The program inputs the speed of the a car. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+
+Test the code by running node speed.js in terminal
+Make sure file is opened in intergrated terminal before running node speed.js
+
+**CHALLANGE 3; NET SALARY CALCULATOR**
+
+A program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary
+
+KRA, NHIF and NSSF values ar provide in th link: https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
+
+Test the code by running node salary.js in terminal 
+Make sure file is opened in intergrated terminal before running node salary.js
+**AUTHOR**
+This project was written by:
+   - Emmanuel Barsosio
+   
+**LICENCE**
+This project is licenced under Apache 2.0
