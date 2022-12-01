@@ -55,6 +55,9 @@ KRA, NHIF and NSSF values ar provide in th link: https://www.aren.co.ke/payroll/
 
 Test the code by running node salary.js in terminal 
 Make sure file is opened in intergrated terminal before running node salary.js
+
+
+
 **AUTHOR**
 This project was written by:
    - Emmanuel Barsosio
